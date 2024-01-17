@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAllure]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DemOAllure(failed)">
+    <classes>
+      <class name="alluretests2023.NewTest">
+        <methods>
+          <include name="test10"/>
+        </methods>
+      </class> <!-- alluretests2023.NewTest -->
+      <class name="alluretests2023.TestSkip">
+        <methods>
+          <include name="Test3"/>
+        </methods>
+      </class> <!-- alluretests2023.TestSkip -->
+      <class name="alluretests2023.NewTest2">
+        <methods>
+          <include name="test10"/>
+        </methods>
+      </class> <!-- alluretests2023.NewTest2 -->
+    </classes>
+  </test> <!-- DemOAllure(failed) -->
+</suite> <!-- Failed suite [TestAllure] -->
